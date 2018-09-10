@@ -28,7 +28,7 @@ client.on('message', msg => {
     if (msg.author.id !== ayarlar.sahip) {
       msg.reply('Benim yapımcım değilsin!');
     } else {
-      msg.channel.sendMessage('```prolog \n Bot yeniden başlatılıyor...```').then(msg => {
+      msg.channel.sendMessage(`Bot yeniden başlatılıyor...`).then(msg => {
       console.log(`BOT: Bot yeniden başlatılıyor...`);
       process.exit(0);
     })
