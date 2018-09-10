@@ -8,7 +8,7 @@ exports.run = async (client, message) => {
             color: 0x00AE86,
             description: `${message.author.tag} bir stres çarkı çevirdi!`,
             image: {
-                url: "https://i.imgur.com/KJJxVi4.gif"
+                url: "https://orig00.deviantart.net/c286/f/2017/128/4/3/untitled_by_scytheaandlanarkine-db8jbxg.gif"
             }
         }
     });
