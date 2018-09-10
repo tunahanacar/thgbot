@@ -98,7 +98,7 @@ client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
 
-client.login(ayarlar.token);
+client.login(process.env.BOT_TOKEN);
 client.on('message', async message => {
     if (message.content.toLowerCase() === prefix + 'döviz') {
 var request = require('request');
