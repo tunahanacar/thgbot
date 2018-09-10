@@ -1,2 +1,1 @@
-THG BOT HIZMETE ACIK !
-
+deneme
