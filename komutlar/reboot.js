@@ -1,21 +1,24 @@
 const Discord = require('discord.js');
 
-exports.run = (client, message, args) => {
-    message.channel.sendMessage().then(msg => {
-    console.log(`BOT: Bot yeniden başlatılıyor...`);
-    process.exit(0);
-  })
+
+exports.run = function(client, message) {
+
+    message.channel.send("Bot yeniden başlatılıyor").then(msg => {
+        console.log("[BOT]Yeniden başlatılıyor");
+        process.exit(0);
+    });
+
 };
 
 exports.conf = {
-  enabled: true,
-  guildOnly: false,
+  enabled: true, 
+  guildOnly: false, 
   aliases: [],
-  permLevel: 4
+  permLevel: 3
 };
 
 exports.help = {
-  name: 'reboot',
-  description: 'Botu yeniden başlatır.',
+  name: 'reboot', 
+  description: 'Botu yeniden başlatır',
   usage: 'reboot'
 };
