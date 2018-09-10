@@ -1,1 +1,2 @@
-# thgbot
+THG BOT HIZMETE ACIK !
+
