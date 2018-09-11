@@ -37,7 +37,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'duyur',
+  name: 'duyurözeltunahanacaryetkilicommand',
   description: 'İstediğiniz şeyi bota duyurtur.',
-  usage: 'duyuru [duyurmak istediğiniz şey]'
+  usage: 'duyurözeltunahanacaryetkilicommand [duyurmak istediğiniz şey]'
 };
