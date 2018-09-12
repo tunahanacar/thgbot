@@ -15,7 +15,7 @@ exports.run = (client, message, params) => {
     .setColor(3447003)
     .setTimestamp()
     .setDescription('Uçuyoruz gençlik :rocket:')
-		.setImage(`https://static.wixstatic.com/media/af610f_9e9e8201d1814a17b304359cb6c69f24~mv2.gif`)
+		.setImage(`http://www.gifmania.com.tr/Hareketli-Gifler-Uzay/Gif-Resimleri-Astronomi/Animasyonlar-Uzay-Roketi/Uzay-Roketi-85172.gif`)
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
