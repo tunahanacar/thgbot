@@ -1,6 +1,6 @@
--_-_-THG [BOT]-_-_-
+-_-_-Thestor [BOT]-_-_-
 
-THG Bot tamamen türk yapımı olup sizlere hizmet sunmak için yapılmıştır.
+Thestor Bot tamamen türk yapımı olup sizlere hizmet sunmak için yapılmıştır.
 
 -_-_-HAKKINDA [BOT]-_-_-
 Botu eklediğiniz andan itibaren komutlarla sizde eğleneceksiniz
