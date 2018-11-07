@@ -15,7 +15,7 @@ exports.run = (client, message, params) => {
     .setColor(3447003)
     .setTimestamp()
     .setDescription('Çitle çitle daha çok var :smile:')
-		.setImage(`https://cf.kizlarsoruyor.com/q9938247/0feb996c-147c-4365-a7bd-35a60bd5414f.gif`)
+		.setImage(`https://img-s1.onedio.com/id-580e1bddbe59ec101128b756/rev-0/w-635/f-jpg-gif-webp-webm-mp4/s-3489a7fb808eb69454bf64d292b3fa472e8ff9cf.gif`)
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
