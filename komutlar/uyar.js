@@ -15,6 +15,7 @@ exports.run = (client, message, args) => {
   if (!modlog) return message.reply('`mod-log` kanalını bulamıyorum.');
   if (reason.length < 1) return message.reply('**Uyarı Sebebini Belirtmedin!**');
   if (message.mentions.users.size < 1) return message.reply('**Kimi Uyaracağını Yazmadın!**').catch(console.error);
+  message.channel.send(message.author.username + "<-- **Uyarınız alınmıştır! Teşekkür ederiz. :heart:**");
   const embed = new Discord.RichEmbed()
   .setColor(0x00AE86)
   .setTimestamp()
@@ -23,7 +24,6 @@ exports.run = (client, message, args) => {
   .addField('Yetkili:', `${message.author.username}#${message.author.discriminator}`)
   .addField('Sebep', reason);
   return guild.channels.get(modlog.id).sendEmbed(embed);
-
 };
 
 exports.conf = {
