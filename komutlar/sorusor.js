@@ -4,9 +4,6 @@ const cevaplar = [
     "Evet!! :smile:",
     "Hayır :rage:",
     "Belki :thinking:",
-    "Olabilir :wink: ",
-    "Daha sonra tekrar sor , İşim var :writing_hand:",
-    "İmkansız :scream:"
 ];
 
 exports.run = function(client, message, args) {
