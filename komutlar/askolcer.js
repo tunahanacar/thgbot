@@ -13,7 +13,7 @@ exports.run = function(client, message, args) {
 
     var cevap = cevaplar[Math.floor(Math.random() * cevaplar.length)];
 
-    if(!ask) return message.reply('Birisini belirt. **Doğru Kullanım**: t!askolcer <kişi>')
+    if(!soru) return message.reply('Birisini belirt. **Doğru Kullanım**: t!askolcer <kişi>')
     else message.channel.send(cevap)
 
 };  
