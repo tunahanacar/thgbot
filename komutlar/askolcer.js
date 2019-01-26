@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const cevaplar = [
-    ":heart: :heart: :heart: :heart: :heart: **%100** | OMG bu sonuç ney lan :smile:",
+    ":heart: :heart: :heart: :heart: :heart: **%100** | Agam bu sonuç ney ? :smile:",
     ":heart: :heart: :heart: :heart: :heart: **%98** | Yaa sen ciddimisin :heart:",
     ":heart: :heart: :heart: :heart: **%83** | Güzel işte böyle ! :heart:",
     ":heart: :heart: :heart: :heart: **%75** | Hoşlanıyorsun :smile:",
