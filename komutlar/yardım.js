@@ -13,7 +13,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .addField("Yeni Komutlar:", '**t!çekirdek** = Olay durumunda çekirdek çitler. \n **t!askolcer** = Aşkınızı ölçer. \n **t!günaydın** = Bahsedilen kişiye günaydın der. \n **t!uyu** = Uyursunuz. \n **t!uçur** = Bahsedilen kişiyi uçurur.')
+    .addField("Yeni Komutlar:", '**t!çekirdek** = Olay durumunda çekirdek çitler. \n **t!askolcer** = Aşkınızı ölmeye yarar. \n **t!günaydın** = Bahsedilen kişiye günaydın der. \n **t!uyu** = Uyursunuz. \n **t!uçur** = Bahsedilen kişiyi uçurur.')
     .addField("Eğlence Komutları:", `**t!banned** = Banlama şakası yapar. \n **t!stresçarkı** = Stres çarkı çevirir. \n **t!öp** = Belirtilen kişiyi öper. \n **t!sarıl** = Belirtilen kişiye sarılır. \n **t!tokalaş** = Belirtilen kişiyle tokalaşır \n **t!yumruh-at** = Yumruk Atarsınız. \n **t!yaz** = Bota İstediğiniz Şeyi Yazdırırsınız. \n **t!emojiyazı** = Emoji şeklinde yazı yazarsınız. \n **t!sorusor** = Sorduğunuz soruya cevap verir. \n **t!türk** = Türk olduğunu kanıtlar. \n **t!hapis** = Birisini hapse atarsın.`)
     .addField("Kullanıcı Komutları:" , '**t!avatarım** = Avatarınınızı Gösterir. \n **t!sunucubilgi** = BOT Sunucu Hakkında Bilgi Verir. \n **t!kullanıcıbilgim** = Sizin Hakkınızda Bilgi Verir. \n **t!sex** = NSFW Komutudur. \n **t!ass** = NSFW Komutudur.')
     .addField("Sunucu Yetkilisi Komutları", `**t!unban** = İstediğiniz Kişinin Yasağını Açar. \n **t!sustur** = İstediğiniz Kişiyi Susturur. -MUTED- \n **t!oylama** = Oylama Açar. \n **t!duyuru** = Güzel Bir Duyuru Görünümü Sağlar.`)
